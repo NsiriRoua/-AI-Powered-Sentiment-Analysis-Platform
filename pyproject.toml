@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ai-powered-sentiment-analysis-platform"
+version = "0.1.0"
+description = ""
+authors = ["Roua Nsiri"]
+readme = "README.md"
+packages = [{ include = "-AI-Powered-Sentiment-Analysis-Platform-1" }]  # 👈 Ensure this points to your main code folder
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
